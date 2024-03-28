@@ -1,0 +1,81 @@
+body{
+    background-image:url("배경미진.png");
+    background-position-y: -20%;
+    background-size:180px;
+    
+}
+h2{
+    color:rgb(80, 43, 17)
+}
+
+h1{
+    position:fixed;
+    left: 250px;
+    top: 30px;
+}
+h3{
+    position:fixed;
+    left: 545px;
+    top: 300px;  
+}
+
+.intro{
+    color:rgb(84, 136, 45);
+    font-size:15px;
+    background-color:antiquewhite;
+    border: 5px solid rgb(80, 43, 17);
+    border-radius: 30px ;
+    position: fixed;
+    height :300px;
+    width: 30%;
+    top: 50px;
+    left: 800px;
+    text-align: center;
+   ;
+    
+
+
+}
+.ABOUT::before{
+    content: "ABOUT ME";
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(80, 43, 17);
+}
+.BIRTH::before{
+    content:"      BIRTH    : 2002.09.06"     
+}
+.BIRTH:hover:BEFORE{
+content:"🎂  : 2002.09.06"
+}
+
+.MBTI::before{
+    content:     "      MBTI     : ISFP"
+}
+.MBTI:hover:BEFORE{
+content:" 💭   : ISFP"
+}
+
+
+.FAVORITE::before{
+    content:"      FAVORITE : MIJIN the DOG"     
+}
+.FAVORITE:hover:BEFORE{
+content:"      FAVORITE : MIJIN the 🐶"
+}
+
+
+.HOBBY::before{
+    content:"      HOBBY    : SWIM & TENNIS "     
+}
+.HOBBY:hover:BEFORE{
+content:"      HOBBY    :  🏊 & 🎾"
+}
+
+
+.MAJOR::before{
+    content:"MAJOR    : CYBER SECURITY"     
+}
+.MAJOR:hover:BEFORE{
+content:"MAJOR    : 🏢🔐"
+}
